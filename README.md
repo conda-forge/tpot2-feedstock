@@ -144,4 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@jay-m-dev](https://github.com/jay-m-dev/)
-
+* [@nickotto](https://github.com/nickotto/)
+* [@perib](https://github.com/perib/)
+* [@EpistasisLab](https://github.com/EpistasisLab/)
