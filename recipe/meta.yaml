@@ -1,5 +1,5 @@
 {% set name = "tpot2" %}
-{% set version = "0.1.3a0" %}
+{% set version = "0.1.4a0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/TPOT2-{{ version }}.tar.gz
-  sha256: 8b3fc5368d0847e9a99e8f45de37acc3024c5f2decaf20e77ee80add420e3b14
+  sha256: bf158ea06fbdfbb762344b2bc451ac4d10434003fd452720ac160281ae904f52
 
 build:
   entry_points:
