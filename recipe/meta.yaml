@@ -67,7 +67,7 @@ requirements:
 
 test:
   imports:
-    - tpot2    - tpot2.builtin_modules
+    - tpot2
   requires:
     - pip
 
