@@ -68,19 +68,6 @@ requirements:
 test:
   imports:
     - tpot2    - tpot2.builtin_modules
-    - tpot2.config
-    - tpot2.evolvers
-    - tpot2.individual_representations
-    - tpot2.individual_representations.graph_pipeline_individual
-    - tpot2.individual_representations.graph_pipeline_individual.graph_utils
-    - tpot2.individual_representations.graph_pipeline_individual.test
-    - tpot2.individual_representations.subset_selector
-    - tpot2.objectives
-    - tpot2.selectors
-    - tpot2.tests
-    - tpot2.tpot_estimator
-    - tpot2.tpot_estimator.templates
-    - tpot2.utils
   requires:
     - pip
 
