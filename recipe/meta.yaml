@@ -1,13 +1,13 @@
 {% set name = "tpot2" %}
-{% set version = "0.1.8a0" %}
+{% set version = "0.1.9a0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/TPOT2-{{ version }}.tar.gz
-  sha256: 77f4852d67f2be408251eb848c427c828c68550273b64ac538317a1addab5436
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/TPOT2-{{ version }}.tar.gz
+  sha256: c9ecd7f7f8156f23b9b7f103dae0b4e487d391c177753c0a3b8ff02e5821333f
 
 build:
   entry_points:
@@ -82,4 +82,3 @@ extra:
     - jay-m-dev
     - nickotto
     - perib
-    - epistasislab
